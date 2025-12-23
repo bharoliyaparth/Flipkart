@@ -1,16 +1,16 @@
 const products = [
-    { name: "Sony 4K Smart TV", price: 55990, image: "./assets/tv.jpg" },
-    { name: "Asus Laptop", price: 45990, image: "./assets/asus.jpg" },
-    { name: "Asics Running Shoes", price: 2299, image: "./assets/shoes.jpg" },
-    { name: "Hublot Watch", price: 3295, image: "./assets/h.jpg" },
-    { name: "Clothes", price: 499, image: "./assets/c1.jpg" },
-    { name: "Cosmetics", price: 399, image: "./assets/cosmetic.jpg" },
-    { name: "Smartphone", price: 15999, image: "./assets/smart-phone.jpg" },
-    { name: "Wireless Headphones", price: 2999, image: "./assets/headphone.jpg" },
-    { name: "Digital Camera", price: 25999, image: "./assets/camera.jpg" },
-    { name: "Coffee Mug", price: 499, image: "./assets/cofee-mug.jpg" },
-    { name: "Bestseller Book", price: 299, image: "./assets/book.jpg" },
-    { name: "Casual Watch", price: 1499, image: "./assets/watch.jpg" }
+    { name: "Sony 4K Smart TV", price: 55990, image: "assets/tv.jpg" },
+    { name: "Asus Laptop", price: 45990, image: "assets/asus.jpg" },
+    { name: "Asics Running Shoes", price: 2299, image: "assets/shoes.jpg" },
+    { name: "Hublot Watch", price: 3295, image: "assets/h.jpg" },
+    { name: "Clothes", price: 499, image: "assets/c1.jpg" },
+    { name: "Cosmetics", price: 399, image: "assets/cosmetic.jpg" },
+    { name: "Smartphone", price: 15999, image: "assets/smart-phone.jpg" },
+    { name: "Wireless Headphones", price: 2999, image: "assets/headphone.jpg" },
+    { name: "Digital Camera", price: 25999, image: "assets/camera.jpg" },
+    { name: "Coffee Mug", price: 499, image: "assets/cofee-mug.jpg" },
+    { name: "Bestseller Book", price: 299, image: "assets/book.jpg" },
+    { name: "Casual Watch", price: 1499, image: "/assets/watch.jpg" }
 ];
 
 let cartItems = [];
@@ -97,4 +97,5 @@ closeLogin.addEventListener('click', () => loginModal.style.display = 'none');
 document.querySelector('.close-cart').addEventListener('click', () => {
     document.querySelector('.cart-modal').style.display = 'none';
 });
+
 
